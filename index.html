@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio showcase of selected journalism pieces by Your Name.">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Your Name — Journalism Portfolio</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+<section class="intro">
+  <h1>Selected Work</h1>
+  <p>Five pieces that illustrate reporting range: data, features, investigations, and quick-turn analysis.</p>
+</section>
+
+<section class="grid">
+  <!-- Internal article pages (3) -->
+  <article class="card">
+    <a href="article-data-story.html" class="card-link">
+      <h2>City Budget: Where the Money Goes</h2>
+      <p>Interactive analysis with embedded Datawrapper graphics.</p>
+      <span class="pill">On this site</span>
+    </a>
+  </article>
+
+  <article class="card">
+    <a href="article-feature.html" class="card-link">
+      <h2>Inside the Night Shift</h2>
+      <p>A feature piece with photos and quotes.</p>
+      <span class="pill">On this site</span>
+    </a>
+  </article>
+
+  <article class="card">
+    <a href="article-investigation.html" class="card-link">
+      <h2>Follow the Paper Trail</h2>
+      <p>Documents, timelines, and takeaways.</p>
+      <span class="pill">On this site</span>
+    </a>
+  </article>
+
+  <!-- External live links (2) -->
+  <article class="card">
+    <a href="https://example.com/your-live-article-1" target="_blank" rel="noopener" class="card-link">
+      <h2>Live: Election Night Results</h2>
+      <p>Real-time coverage published at Example News.</p>
+      <span class="pill pill-live">External link</span>
+    </a>
+  </article>
+
+  <article class="card">
+    <a href="https://example.com/your-live-article-2" target="_blank" rel="noopener" class="card-link">
+      <h2>Op-Ed: Transit at a Crossroads</h2>
+      <p>Perspective piece with regional data.</p>
+      <span class="pill pill-live">External link</span>
+    </a>
+  </article>
+</section>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name. Built with plain HTML/CSS. Hosted on GitHub Pages.</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

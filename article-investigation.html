@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio showcase of selected journalism pieces by Your Name.">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Your Name — Journalism Portfolio</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+<article class="article">
+  <h1>Follow the Paper Trail</h1>
+  <p class="dek">Documents reveal how the decision unfolded behind closed doors.</p>
+  <figure class="hero">
+    <img src="assets/papers.jpg" alt="Stacks of papers and notes" loading="lazy">
+    <figcaption>Records obtained via public requests.</figcaption>
+  </figure>
+  <h2>Timeline</h2>
+  <ol>
+    <li><strong>Jan 5:</strong> Tip received.</li>
+    <li><strong>Feb 2:</strong> Key emails obtained.</li>
+    <li><strong>Mar 14:</strong> Decision finalized.</li>
+  </ol>
+  <h2>Documents</h2>
+  <p>Link to PDFs or external repos as needed.</p>
+</article>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name. Built with plain HTML/CSS. Hosted on GitHub Pages.</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

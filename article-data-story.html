@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio showcase of selected journalism pieces by Your Name.">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Your Name — Journalism Portfolio</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+<article class="article">
+  <h1>City Budget: Where the Money Goes</h1>
+  <p class="dek">An explainer using public records and interactive charts.</p>
+  <figure class="hero">
+    <img src="assets/budget-hero.jpg" alt="City budget documents and charts" loading="lazy">
+    <figcaption>Budget highlights at a glance.</figcaption>
+  </figure>
+
+  <h2>Key Findings</h2>
+  <ul>
+    <li>Public safety and education make up the largest shares.</li>
+    <li>Spending on transit has increased for three consecutive years.</li>
+    <li>Reserves remain below pre-pandemic levels.</li>
+  </ul>
+
+  <h2>Interactive Charts</h2>
+  <p>Replace the <code>datawrapper-id</code> with your own chart IDs. You can add multiple embeds.</p>
+
+  <!-- Datawrapper embed #1 -->
+  <div class="embed">
+    <iframe title="Budget by department" aria-label="chart" id="datawrapper-chart-1"
+      src="https://datawrapper.dwcdn.net/XXXX1/"
+      scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
+    <script>
+      (function() {
+        'use strict';
+        window.addEventListener("message", function(event) {
+          if (event.data["datawrapper-height"]) {
+            const iframes = document.querySelectorAll("iframe[id^='datawrapper-chart']");
+            for (const chartId in event.data["datawrapper-height"]) {
+              for (const el of iframes) {
+                if (el.contentWindow === event.source) {
+                  el.style.height = event.data["datawrapper-height"][chartId] + "px";
+                }
+              }
+            }
+          }
+        });
+      })();
+    </script>
+  </div>
+
+  <!-- Datawrapper embed #2 (optional) -->
+  <div class="embed">
+    <iframe title="Spending over time" aria-label="chart" id="datawrapper-chart-2"
+      src="https://datawrapper.dwcdn.net/XXXX2/"
+      scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
+  </div>
+
+  <h2>Methodology</h2>
+  <p>Briefly describe sources and methods. Link to data / FOIAs if possible.</p>
+</article>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name. Built with plain HTML/CSS. Hosted on GitHub Pages.</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

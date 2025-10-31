@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio showcase of selected journalism pieces by Your Name.">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Your Name — Journalism Portfolio</a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+<article class="article">
+  <h1>Inside the Night Shift</h1>
+  <p class="dek">A look at the people who keep the city running while most of us sleep.</p>
+  <figure class="hero">
+    <img src="assets/night-shift.jpg" alt="City workers at night" loading="lazy">
+    <figcaption>Portraits captured after midnight.</figcaption>
+  </figure>
+  <p>Write your narrative here. Use subheads, pull quotes, and image captions.</p>
+  <blockquote>“We’re invisible until something breaks.”</blockquote>
+  <p>Continue the story…</p>
+</article>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name. Built with plain HTML/CSS. Hosted on GitHub Pages.</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

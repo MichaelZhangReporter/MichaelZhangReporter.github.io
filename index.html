@@ -3,74 +3,127 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio – Your Name</title>
+  <title>Michael Zhang – Journalism Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="Portfolio showcase of selected journalism pieces by Your Name.">
+  <meta name="description" content="Portfolio showcase of selected journalism pieces by Michael Zhang">
 </head>
+
 <body>
+  <!-- ===== HEADER ===== -->
   <header class="site-header">
-    <a class="site-title" href="index.html">Your Name — Journalism Portfolio</a>
+    <a class="site-title" href="index.html">Michael Zhang — Journalism Portfolio</a>
     <nav class="site-nav">
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
+      <a href="other_clips.html">Additional work</a>
     </nav>
   </header>
+
   <main class="container">
-<section class="intro">
-  <h1>Selected Work</h1>
-  <p>Five pieces that illustrate reporting range: data, features, investigations, and quick-turn analysis.</p>
+
+    <!-- ===== PAGE INTRO ===== -->
+    <section class="intro">
+      <h1>Featured Work</h1>
+    </section>
+
+    <section class="article-grid">
+
+  <article class="article-card">
+    <a href="AAPI_Story.html" class="article-link">
+      <img src="assets/HEAD_AAPI.jpg" class="article-thumb">
+      <div class="article-content">
+        <h2 class="article-headline">How Houston’s AAPI Nonprofits Mobilize Voters</h2>
+        <p class="article-subhead">Local advocacy groups work to boost turnout among Houston’s fastest-growing community.</p>
+        <span class="pill pill-red">Originally posted in Houston Landing</span>
+      
+      </div>
+    </a>
+  </article>
+
+  <article class="article-card">
+    <a href="article-feature.html" class="article-link">
+      <img src="assets/Learning-Curve.jpg" class="article-thumb">
+      <div class="article-content">
+        <h2 class="article-headline">Learning Curve: How charter school growth, declining birth rates are hitting Aldine ISD</h2>
+        <p class="article-subhead">The combination of charter school growth and declining birth rates have taken a toll on Aldine ISD’s enrollment, state and federal data show, contributing to the district’s proposal to close seven schools later this year.
+
+</p>
+        
+        <span class="pill pill-red">Originally posted in Houston Landing</span>
+      
+      </div>
+    </a>
+  </article>
+
+  <article class="article-card">
+    <a href="article-investigation.html" class="article-link">
+      <img src="assets/TrafficHead.jpg" class="article-thumb">
+      <div class="article-content">
+        <h2 class="article-headline">Data: Traffic crashes, injuries at stoplights spiked in Houston area after Hurricane Beryl</h2>
+        <p class="article-subhead">When Hurricane Beryl swept through Houston and knocked out hundreds of stop lights, traffic in the city turned chaotic — with painful results for hundreds of drivers and passengers.
+
+
+        
+        <span class="pill pill-red">Originally posted in Houston Landing</span>
+      
+      </div>
+    </a>
+  </article>
+
+  <article class="article-card">
+    <a href="https://www.dailydot.com/news/florida-police-recruitment-bonus-desantis/" target="_blank" rel="noopener" class="article-link">
+      <img src="assets/DeSantis.png" class="article-thumb">
+      <div class="article-content">
+        <h2 class="article-headline">Florida’s Police Bonus Program Under Scrutiny</h2>
+        <p class="article-subhead">Florida’s police recruitment bonus appears to have attracted a certain kind of cop.</p>
+        <span class="pill pill-live">External link</span>
+      </div>
+    </a>
+  </article>
+
+  <article class="article-card">
+    <a href="https://lookouteugene-springfield.com/story/justice/2025/08/26/data-shows-sharp-increase-in-eugene-ice-detentions/" target="_blank" rel="noopener" class="article-link">
+      <img src="assets/ICE BUILDING.png" class="article-thumb">
+      <div class="article-content">
+        <h2 class="article-headline">Data Shows Sharp Increase in ICE Detentions</h2>
+        <p class="article-subhead">In June, more people were detained by U.S. Immigration and Customs Enforcement authorities in Eugene than during the previous four months combined, according to records obtained by the Deportation Data Project.
+
+</p>
+
+        <span class="pill pill-live">External link</span>
+      </div>
+    </a>
+  </article>
+
 </section>
 
-<section class="grid">
-  <!-- Internal article pages (3) -->
-  <article class="card">
-    <a href="article-data-story.html" class="card-link">
-      <h2>City Budget: Where the Money Goes</h2>
-      <p>Interactive analysis with embedded Datawrapper graphics.</p>
-      <span class="pill">On this site</span>
-    </a>
-  </article>
+    <!-- ===== END ARTICLE GRID ===== -->
 
-  <article class="card">
-    <a href="article-feature.html" class="card-link">
-      <h2>Inside the Night Shift</h2>
-      <p>A feature piece with photos and quotes.</p>
-      <span class="pill">On this site</span>
-    </a>
-  </article>
-
-  <article class="card">
-    <a href="article-investigation.html" class="card-link">
-      <h2>Follow the Paper Trail</h2>
-      <p>Documents, timelines, and takeaways.</p>
-      <span class="pill">On this site</span>
-    </a>
-  </article>
-
-  <!-- External live links (2) -->
-  <article class="card">
-    <a href="https://example.com/your-live-article-1" target="_blank" rel="noopener" class="card-link">
-      <h2>Live: Election Night Results</h2>
-      <p>Real-time coverage published at Example News.</p>
-      <span class="pill pill-live">External link</span>
-    </a>
-  </article>
-
-  <article class="card">
-    <a href="https://example.com/your-live-article-2" target="_blank" rel="noopener" class="card-link">
-      <h2>Op-Ed: Transit at a Crossroads</h2>
-      <p>Perspective piece with regional data.</p>
-      <span class="pill pill-live">External link</span>
-    </a>
-  </article>
-</section>
   </main>
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Your Name. Built with plain HTML/CSS. Hosted on GitHub Pages.</p>
+
+  <!-- ===== ENHANCED FOOTER ===== -->
+  <footer class="site-footer enhanced-footer">
+    <div class="footer-inner">
+
+      
+      <div class="footer-section">
+        <h3 class="footer-title">Contact</h3>
+        <ul class="footer-links">
+          <li><a href="mailto:zhangmichael1028@gmail.com">zhangmichael1028@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/michael-zhang-918427219/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://x.com/MichaelJingZ" target="_blank">Twitter / X</a></li>
+        </ul>
+      </div>
+
+     
+    </div>
+
+    
+
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </footer>
+
 </body>
 </html>

@@ -211,3 +211,59 @@ blockquote {
 .article-link {
   color: inherit;
   text-decoration: none;
+
+
+/* ---------- IMPROVED CARD SPACING ---------- */
+
+.grid {
+  gap: 1.5rem;               /* more room between cards */
+  margin-top: 1.5rem;
+}
+
+.card {
+  border-radius: 18px;
+}
+
+.card-link {
+  padding: 1.4rem 1.3rem;    /* wider interior padding */
+}
+
+.pill {
+  margin-top: .75rem;
+}
+
+
+/* ---------- ARTICLE CARD SPACING ---------- */
+
+.article-grid {
+  gap: 2.5rem;               /* more space between article cards */
+  margin-top: 3rem;
+}
+
+.article-card {
+  border-radius: 16px;
+}
+
+.article-content {
+  padding: 1.6rem 1.5rem 1.8rem;  /* more room inside */
+}
+
+.article-headline {
+  margin: 0 0 .75rem 0;      /* more space under headline */
+  font-size: 1.3rem;         /* slightly bigger */
+}
+
+.article-subhead {
+  margin-bottom: 1.25rem;
+}
+
+.pill {
+  margin-top: .9rem;
+}
+
+
+/* Force thumbnail to have nicer rounding and spacing */
+.article-thumb {
+  height: 210px;             /* taller + nicer proportions */
+  border-bottom: 1px solid var(--border);
+}
